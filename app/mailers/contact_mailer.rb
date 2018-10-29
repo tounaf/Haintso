@@ -4,11 +4,10 @@ class ContactMailer < ApplicationMailer
   #
   #   en.contact_mailer.sendmail.subject
   #
-  def sendmail(email,name,addresse,message)
+  def sendmail(email,name,message)
     @haintso="contacthaintso@gmail.com"
     @email = email
     @name = name 
-    @addresse = addresse
     @message = message 
     mail(to: @haintso , subject: "Nouveau message ")
   end
