@@ -1721,7 +1721,7 @@ iframe {
 .service2_inner .service2_item:hover .service2_item_inner {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  background: #ffcd00;
+  background: #ea6721;
 }
 
 .service2_inner .service2_item:hover .service2_item_inner .service2_item_inner_content {
