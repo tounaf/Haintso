@@ -1,16 +1,43 @@
+    <head>  
+    <style type="text/css">
+        .service2_item{
+            border: 1px solid #3e3e40;
+            border-bottom: 1px solid #3e3e40;
+            /* background-color: #ea6721; */
+        }
+        .tp-bullet {
+            visibility: hidden;
+        }
+        .service_icon {
+            width: 70px;
+            height: 50px;
+        }
+        @media all and (min-width: 1024px) {
+            .style {
+                margin-left:220px;
+            }
+        }
+        @media all and (min-width: 920px) and (max-width: 1020px ) {
+            .style {
+                margin-left:100px;
+             }    
+        }
+    </style>
+    </head>
     <body>
                
         <!--================Main Slider Area =================-->
+                           
         <section class="main_slider_area slider_2">
-            <div id="main_slider" class="rev_slider" data-version="5.3.1.6">
+            <div id="main_slider" class="rev_slider" data-version="5.3.1.6" >
                 <ul> 
                     <li data-index="rs-2972" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="img/home-slider/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Web Show" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="/lib/haintso-trano/hh.png" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina>
+                        <img src="/lib/haintso-trano/h18.jpg" alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="5" class="rev-slidebg" data-no-retina >
                         <!-- LAYERS -->
 
-                        <div class="slider_text_box2">
-                            <div class="tp-caption first_text" 
+                      <div class="slider_text_box2">
+                            <%# <div class="tp-caption first_text" 
                             data-x="['left','left','left','left','left']" 
                             data-y="['middle','middle','middle','middle','middle']" 
                             data-hoffset="['0','15','15','15','15']" 
@@ -28,10 +55,11 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[10,10,10,10]"
                             data-paddingleft="[0,0,0,0]">
-                            <br><br><br><br>
-                            <font color="#ea6721"> haintso-trano</font></div>
-                            
-                            <div class="tp-caption secand_text" 
+                           <! <br><br><br><br>
+                            <font color="#ea6721" style="font-family: Chilanka"> votre projet, votre signature</font> --> %>
+                        <!-- /div>
+ -->          
+                            <div class="tp-caption secand_text"
                             data-x="['left','left','left','left','left']" 
                             data-y="['middle','middle','middle','middle']" 
                             data-hoffset="['0','15','15','15','15']" 
@@ -48,9 +76,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">
-                                <br><br><br><br><br><br><br><br><br>
-                               <div style="font-family: Chilanka"><h1><i> votre projet, votre signature</i></h1></div>
+                            data-paddingleft="[0,0,0,0]">                        
                             </div>
                             
                         </div>
@@ -63,49 +89,37 @@
         <!--================End Main Slider Area =================-->
         
         <!--================Feature Content Area =================-->
-        <section class="feature_content">
+     <!--    <section class="feature_content">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-sm-6">
                         <div class="f_content_item">
                             <i class="fa fa-ge" aria-hidden="true"></i>
                             <a href="#"><h4>innovation</h4></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Classique ou moderne ? : les deux ! 
+                             Extension d'une maison traditionnelle classique par un volume résolument contemporain en bardage bois. Pour une surface totale de 220 m². L'évolution de nos modes de vie s'illustre dans la modulation et le caractère des espaces. Deux ambiances d'architectures différentes mais en harmonie pour ceux qui hésitent.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="f_content_item">
                             <i class="fa fa-building" aria-hidden="true"></i>
                             <a href="#"><h4>premiere construction</h4></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Loft de haut standing dans la capitale (120 m²). 
+                            L'illusion de la grandeur, les formes épurées, les lignes courbes marquent un design résolument contemporain pour cet appartement franchement rénové. Les grands miroirs, les doubles hauteurs dans le salon, les jeux de plafond, l'écran plat niché dans le mur soulignent des intentions, à la fois dans la conception et dans la mise en œuvre, de donner des effets et des sensations à toutes les échelles : du volume, aux plus petits détails.</</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="f_content_item">
                             <i class="fa fa-money" aria-hidden="true"></i>
                             <a href="#"><h4>en cours</h4></a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>Maison individuelle moderne de 110 m². 
+                             Combles habitables. Le mariage entre la brique et les enduits de façades blanches introduit la modernité dans une architecture traditionnelle de toiture à 2 pans. Les jeux d'ouvertures "carré" renforcent cette présence subtile de modernité.<</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--================End Feature Content Area =================-->
+ -->        <!--================End Feature Content Area =================-->
         
         <!--================Best Company Area =================-->
         <section class="best_company_area">
@@ -113,10 +127,10 @@
                 <div class="row">
                     <div class="col-md-5">
                         <div class="b_companu_l_text">
-                            <h3 style="color:#3e3e40"><b><i>"votre projet, votre signature"</i></b></h3>
-                            <p>Plus de 10ans d'expérience dans le domaine
+                            <h3 style="color:#3e3e40,"><b><i style="font-family: Chilanka">"Votre projet, votre signature"</i></b></h3>
+                            <p><b> Plus de 10ans d'expérience dans le domaine</b> <br>
                                 Après plus de 10 ans d'expérience dans le domaine de la construction, de la rénovation de Maisons individuelles, de la conception et du suivi de travaux pour des appartements de prestige en France (principalement en Région Parisienne), le Bureau d'études HETA-FRANCE dirigé par un Maître d'oeuvre, d'origine malgache va ouvrir son annexe "HAINTSO-TRANO" à Antananarivo Madagascar en fin d'année.
-                                <br><br>
+                                <br><br></p>
                             <a class="slider_btn" href="#" data-toggle="modal" data-target="#voirplus">voir plus</a>
                         </div>
                     </div>
@@ -134,89 +148,85 @@
         <section class="our_service_area2">
             <div class="container">
                 <div class="main_c_b_title">
-                    <h2>Notre<br class="title_br">Services</h2>
+                    <h2>nos<br class="title_br">Préstations</h2>
                 </div>
                 <div class="row service2_inner">
                     <div class="col-md-4 col-sm-6">
                         <div class="service2_item">
-                            <div class="service2_item_inner" style="background-color:#ea6721">
+                            <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
-                                    <div class="service_icon">
-                                        <img src="/lib/img/icon/s2-icon-1.png" alt="">
-                                        <img src="/lib/img/icon/s2-icon-hover-1.png" alt="">
+                                    <div class="service_icon" style="border-radius: 50px; background-color: green">                          
+                                         <i class="fa fa-edit" style="font-size:40px;color:white;"></i>
                                     </div>
                                     <h4>Plan et vues perspectives</h4>
-                                    <p style="color:white">Conception et réalisation de plans et vues perspectives en phase étude - permis de construction des traveaux.
+                                    <p>Conception et réalisation de plans et vues perspectives en phase étude - permis de construction des travaux.
                                     </p>
-                                    <a class="view_btn" href="#">Haintso-trano</a>
+                                    <a class="view_btn" href="#"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="service2_item">
-                            <div class="service2_item_inner" style="background-color:#ea6721">
+                            <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
-                                    <div class="service_icon">
-                                        <img src="/lib/img/icon/s2-icon-2.png" alt="">
-                                        <img src="/lib/img/icon/s2-icon-hover-2.png" alt="">
+                                    <div class="service_icon" style="border-radius: 50px; background-color: blue">
+                                        <i class="fa fa-signal" style="font-size:40px;color:white;"></i>
                                     </div>
                                     <h4>Suivi administratif</h4>
-                                    <p style="color:white">Suivi des demande d'autorisation de construire, interface avec les differents intervanants selon l'avancement de votre projet: concessionnaires, responsables techniques etc...</p>
-                                    <a class="view_btn" href="#">Haintso-trano</a>
+                                    <p>Suivi des demande d'autorisation de construire, interface avec les differents intervanants selon l'avancement...</p>
+                                    <a class="view_btn" href="#"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="service2_item">
-                            <div class="service2_item_inner" style="background-color:#ea6721">
+                            <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
-                                    <div class="service_icon">
-                                        <img src="/lib/img/icon/s2-icon-3.png" alt="">
-                                        <img src="/lib/img/icon/s2-icon-hover-3.png" alt="">
+                                    <div class="service_icon"  style="border-radius: 50px; background-color: red">
+                                       <i class="fa fa-home" style="font-size:40px;color:white;"></i>
                                     </div>
                                     <h4>Chantier</h4>
-                                    <p style="color:white">
-                                        Suivi et coordination du chantier, réalisation des plans d'execution, vérification de la bonne mise en oeuvre des traveaux, suivi du planning et du budget, assistance à la réception des traveaux.
+                                    <p>
+                                        Suivi et coordination du chantier, réalisation des plans d'execution, vérification de la bonne mise en oeuvre des travaux...
                                     </p>
-                                    <a class="view_btn" href="#">Haintso-trano</a>
+                                    <a class="view_btn" href="#"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 style">
                         <div class="service2_item">
-                            <div class="service2_item_inner" style="background-color:#ea6721">
+                            <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
-                                    <div class="service_icon">
-                                        <img src="/lib/img/icon/s2-icon-4.png" alt="">
-                                        <img src="/lib/img/icon/s2-icon-hover-4.png" alt="">
+                                    <div class="service_icon"  style="border-radius: 50px; background-color: black">                               
+                                         <i class="fa fa-city" style="font-size:40px;color:white;"></i>
                                     </div>
                                     <h4>présentation</h4>
-                                    <p style="color:white">commerciale immobilière <br>
+                                    <p>commerciale immobilière <br>
                                     Réalisation de plaquettes de présentation, plans d'amenagement en couleur, vues perspectives et vidéos.</p>
-                                    <a class="view_btn" href="#">Haintso-trano</a>
+                                    <a class="view_btn" href="#"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <div class="service2_item">
-                            <div class="service2_item_inner" style="background-color:#ea6721">
+                            <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
-                                    <div class="service_icon">
-                                        <img src="/lib/img/icon/s2-icon-5.png" alt="">
-                                        <img src="/lib/img/icon/s2-icon-hover-5.png" alt="">
+                                    <div class="service_icon" style="border-radius: 50px; background-color: #3e3e40">
+                                    
+                                        <i class="glyphicon glyphicon-euro" style="font-size:40px;color:green;"></i>
                                     </div>
-                                    <h4>Budget et planning de traveaux</h4>
-                                    <p style="color:white">Elaboration de traveaux detaillés de suivi budget et planning de traveaux, tableaux d'analyse des coûts fournitures et/ou main-d'oeuvre.</p>
-                                    <a class="view_btn" href="#">Haintso-trano</a>
+                                    <h4>Budget et planning de travaux</h4>
+                                    <p>Elaboration de travaux detaillés de suivi budget et planning de travaux, tableaux d'analyse des coûts fournitures et/ou main-d'oeuvre.</p>
+                                    <a class="view_btn" href="#"></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-               <!--      <div class="col-md-4 col-sm-6">
+                 <!--    <div class="col-md-4 col-sm-6">
                         <div class="service2_item">
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">

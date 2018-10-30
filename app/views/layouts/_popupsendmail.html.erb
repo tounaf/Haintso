@@ -3,16 +3,17 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="padding-left: 200px"><font color="blue" size="5"> nous contactez</font></h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="padding-left: 200px"><font color="blue" size="5"> Nous contacter</font></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
-                Directeur Générale <br>
+                Direction Générale <br>
                 Heta-France<br>
-                tél: +0033(0)6 64 49 11 18<br><br>
+                <i class="fa fa-envolope-o"></i>E-mail: contact@heta-france.fr<br>
+                Tél: +0033(0)6 64 49 11 18<br><br>
                 Haintso-trano<br>
-                mail: contacthaintso@gmail.com <br>
-                tél: 032 85 085 17
+                <i class="fa fa-envolope-o"></i>E-mail: contacthaintso@gmail.com <br>
+                Tél: +261 32 85 085 17
             </div>
             <div class="modal-body">
                 <%= form_tag "/send-email", method: "post" do %>
@@ -23,7 +24,7 @@
                       </div>
 
                           <div class="form-group">
-                             <label for="exampleInputPassword1" style="color:blue">e-Mail: </label>
+                             <label for="exampleInputPassword1" style="color:blue">E-mail: </label>
                             <input type="email" id="email" class="form-control invalid " name="email" placeholder="placez ici votre addresse email" required>
                             <p1 class="text-danger error" style="display:none">mail invalide</p1>
                       </div>   
