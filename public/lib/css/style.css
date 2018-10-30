@@ -1033,7 +1033,7 @@ iframe {
 .slider_btn {
   display: inline-block;
   padding: 0px 36px;
-  border: 2px solid #ffcd00;
+  border: 2px solid #ea6721;
   line-height: 50px;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
@@ -1052,7 +1052,7 @@ iframe {
   content: "";
   position: absolute;
   z-index: -1;
-  background: #ffcd00;
+  background: #ea6721;
   height: 250px;
   width: 320px;
   border-radius: 50%;
@@ -1077,9 +1077,9 @@ iframe {
 .submit_btn {
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #ffcd00;
+  background: #ea6721;
   border-radius: 0px;
-  border: 1px solid #ffcd00;
+  border: 1px solid #ea6721;
   color: #fff;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
@@ -1346,7 +1346,7 @@ iframe {
   font-size: 25px;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
-  color: #ffcd00;
+  color: #ea6721;
 }
 
 .pre_hover p {
@@ -1363,7 +1363,7 @@ iframe {
 }
 
 .pre_hover .slider_btn:hover {
-  color: #ffcd00;
+  color: #ea6721;
 }
 
 .pre_construction_right {
@@ -1639,7 +1639,7 @@ iframe {
 }
 
 .b_companu_l_text .slider_btn:hover {
-  color: #ffcd00;
+  color: #ea6721;
 }
 
 /* End Best Company area css
@@ -1721,7 +1721,7 @@ iframe {
 .service2_inner .service2_item:hover .service2_item_inner {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  background: #ffcd00;
+  background: #ea6721;
 }
 
 .service2_inner .service2_item:hover .service2_item_inner .service2_item_inner_content {
@@ -3328,7 +3328,7 @@ iframe {
 }
 
 .our_project_details .project_item:hover .project_hover .project_hover_inner {
-  background: rgba(255, 205, 0, 0.8);
+  background: #ea6721;
 }
 
 .our_project_details .project_item:hover .project_hover .project_hover_inner h4 {
@@ -3431,7 +3431,7 @@ iframe {
 }
 
 .project_item:hover .project_hover .project_hover_inner {
-  background: rgba(255, 205, 0, 0.8);
+  background: #ea6721;
 }
 
 .project_item:hover .project_hover .project_hover_inner h4 {
