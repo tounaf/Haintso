@@ -80,12 +80,15 @@
                     {
                         $(this).css("border-color","red");
                         $("p1.error").show();
+                         $("#send").hide();
+
                         
                     }else if (validateEmail($(this).val()))
                     {
                         $(this).css("border-color", "green");
                         $("p1.error").hide();
                         $(this).removeClass("invalid");
+                        $("#send").show();
                         
                     }
                 });
@@ -94,21 +97,15 @@
                     {
                         $(this).css("border-color","red");
                          $("p2.error").show();
+                         // $("#send").hide();
                     }else {
                         $(this).css("border-color","green");   
                         $("p2.error").hide();
                         $(this).removeClass("invalid");
+                        // $("#send").show();
                     }
-                });
-                $("#send,#email,#message").keyup(function(){
-                    if(this).removeClass("invalid")==true 
-                    {
-                        $("#send").show();
-                    }else
-                    {
-                        $("#send").hide();
-                    }
-                })
+                
+             });
             });
         </script>
 
