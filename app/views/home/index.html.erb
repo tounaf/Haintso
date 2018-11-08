@@ -3,6 +3,7 @@
         .service2_item{
             border: 1px solid #3e3e40;
             border-bottom: 1px solid #3e3e40;
+
             /* background-color: #ea6721; */
         }
         .tp-bullet {
@@ -21,6 +22,16 @@
             .style {
                 margin-left:100px;
              }    
+
+        }
+
+
+        @media all and (max-width: 300px) {
+            .voirplus{
+                border-radius: 50px;
+                width:500px;
+                height: 100px;
+            }
         }
 
         #slogan {
@@ -62,10 +73,12 @@
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[10,10,10,10]"
                             data-paddingleft="[0,0,0,0]">
-                            <br><br><br><br>
-                            <font color="#ea6721" id="slogan" style="font-family: Chilanka"> votre projet, votre signature</font>
-                        </div>          
+
+                            <%# <font color="#ea6721" style="font-family: Chilanka"> votre projet, votre signature</font> %>
+                        <!-- /div>
+ -->          
                             <div class="tp-caption secand_text"
+
                             data-x="['left','left','left','left','left']" 
                             data-y="['middle','middle','middle','middle']" 
                             data-hoffset="['0','15','15','15','15']" 
@@ -84,10 +97,10 @@
                             data-paddingbottom="[0,0,0,0]"
                             data-paddingleft="[0,0,0,0]">                        
                             </div>
-                            
+               <!--             
                         </div>
                     </li>
-                    <li data-index="rs-2973" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="img/home-slider/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Web Show" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+                    <li data-index="rs-2973" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="img/home-slider/slider-1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Web Show" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description=""> -->
                     </li>
                 </ul>
             </div>
@@ -142,7 +155,7 @@
                     </div>
                     <div class="col-md-7">
                         <div class="b_company_image">
-                            <img src="/lib/haintso-trano/h20.jpg" alt="" width="700" height="400">
+                            <img class="voirplus" src="/lib/haintso-trano/h20.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -151,7 +164,7 @@
         <!--================End Best Company Area =================-->
         
         <!--================Our Service2 Area =================-->
-        <section class="our_service_area2">
+        <section class="our_service_area2" style="padding-top: 20px;">
             <div class="container">
                 <div class="main_c_b_title">
                     <h2>nos<br class="title_br">Préstations</h2>
@@ -163,6 +176,7 @@
                                 <div class="service2_item_inner_content">
                                     <div class="service_icon" style="border-radius: 50px; background-color: green">                          
                                          <i class="fa fa-edit" style="font-size:40px;color:white;"></i>
+
                                     </div>
                                     <h4>Plan et vues perspectives</h4>
                                     <p>Conception et réalisation de plans et vues perspectives en phase étude - permis de construction des travaux.
@@ -186,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-4 col-sm-6 ">
                         <div class="service2_item">
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
@@ -202,7 +216,9 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="col-md-4 col-sm-6 style">
+
                         <div class="service2_item">
                             <div class="service2_item_inner">
                                 <div class="service2_item_inner_content">
@@ -213,6 +229,7 @@
                                     <p>commerciale immobilière <br>
                                     Réalisation de plaquettes de présentation, plans d'amenagement en couleur, vues perspectives et vidéos.</p>
                                     <a class="view_btn" href="#"></a>
+
                                 </div>
                             </div>
                         </div>
@@ -225,9 +242,11 @@
                                     
                                         <i class="glyphicon glyphicon-euro" style="font-size:40px;color:green;"></i>
                                     </div>
+
                                     <h4>Budget et planning de travaux</h4>
                                     <p>Elaboration de travaux detaillés de suivi budget et planning de travaux, tableaux d'analyse des coûts fournitures et/ou main-d'oeuvre.</p>
                                     <a class="view_btn" href="#"></a>
+
                                 </div>
                             </div>
                         </div>

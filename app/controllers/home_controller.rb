@@ -19,6 +19,6 @@ class HomeController < ApplicationController
 		@email = params['email']
 		@message = params['message']
 		ContactMailer.sendmail(@email,@name,@message).deliver_now
-		render :action => 'index'
+		redirect_to :action => 'index'
 	end
 end	
