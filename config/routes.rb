@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   # get '/contact' , to: 'home#contact' , as: :contact
 
+  get '/prestation' , to: 'home#prestation' , as: :prestation
+
   post '/send-email' , to: 'home#sendemail' , as: :sendemail
 
 end
