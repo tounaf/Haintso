@@ -132,13 +132,11 @@
         <script type="text/javascript">
             $(document).ready(function(){
                 $(window).scroll(function(){
-                    console.log($('font').attr('color'));
-                    if ($(this).scrollTop() > 0 ){
-
-                        // $("nav").css({
-                        //     'background-color','transparentize($color:red, $amount:0.6)',
-                        // });  
-                    } 
+                    if (screen.width < 900 ) {
+                        $('.networking_left').hide();
+                    }else if (screen.width > 900 ){
+                        $('networking_bottom').hide();
+                    }
                 })
             });
         </script>
