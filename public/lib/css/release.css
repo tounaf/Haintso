@@ -120,6 +120,13 @@
         height: 250px;
     }
 }
+
+@media all and (max-width: 1000px) {
+    .zoom div img {
+        width: 200px;
+        height: 150px;
+    }
+}
 .zoom div img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
