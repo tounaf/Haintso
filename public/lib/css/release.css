@@ -113,6 +113,13 @@
 }
 
 /* realisation*/
+
+@media all and (min-width: 1000px) {
+    .zoom div img {
+        width: 300px;
+        height: 250px;
+    }
+}
 .zoom div img {
 	-webkit-transform: scale(1);
 	transform: scale(1);
