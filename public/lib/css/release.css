@@ -121,10 +121,17 @@
     }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1000px ) and ( min-width: 700px) {
     .zoom div img {
         width: 200px;
         height: 150px;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .zoom div img {
+        width: 150px;
+        height: 100px;
     }
 }
 .zoom div img {
