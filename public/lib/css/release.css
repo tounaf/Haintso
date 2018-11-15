@@ -134,6 +134,10 @@
         width: 320px
     }
 
+    .paire,realesed {
+        left: 50px;
+    }
+
 }
 
 @media all and (max-width: 1000px ) and ( min-width: 700px) {
@@ -143,6 +147,10 @@
     }
     .impaire {
         width: 320px
+    }
+    
+    .paire,realesed {
+        left: 50px;
     }
 }
 
