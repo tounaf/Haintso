@@ -151,8 +151,11 @@
 
 /*  debut nav.html*/
 
-.font-nav {
+font,font:hover{
+    color:#ea6721;
     text-transform: capitalize;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 
