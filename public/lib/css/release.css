@@ -226,6 +226,7 @@ font:hover{
 }
 .paire div h2, .impaire div h2 {
     font-size: 1.38461em;
+    line-height: 1.3em;
 }
 
 
