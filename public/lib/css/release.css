@@ -239,10 +239,10 @@ font:hover{
     content: "/\00a0";
 } */
 
-breadcrumb>li+li:before {
+/* breadcrumb>li+li:before {
     content: none;
     padding: 0 5px;
     color: #ccc;
-}
+} */
 
 
