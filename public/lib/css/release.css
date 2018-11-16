@@ -224,7 +224,7 @@ font:hover{
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-.paire div h2 {
+.paire div h2, .impaire div h2 {
     font-size: 1.38461em;
 }
 
