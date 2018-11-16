@@ -195,6 +195,14 @@
     }
 }
 
+@media all and (max-width: 425px){
+    
+    .paire div h2, .impaire div h2 {
+        font-size: 1.38461em;
+        line-height: 1.3em;
+    }
+}
+
 
 
 
@@ -223,10 +231,6 @@ font:hover{
     text-transform: capitalize;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-}
-.paire div h2, .impaire div h2 {
-    font-size: 1.38461em;
-    line-height: 1.3em;
 }
 
 
