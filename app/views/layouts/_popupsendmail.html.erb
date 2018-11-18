@@ -3,7 +3,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel" style="padding-left: 200px"><font color="blue" size="5"> Nous contacter</font></h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="padding-left: 200px"><font color="#3e3e40" size="5"> Nous contacter</font></h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -18,18 +18,18 @@
             <div class="modal-body">
                 <%= form_tag "/send-email", method: "post" do %>
                       <div class="form-group">
-                        <label for="exampleInputEmail1" style="color:blue">Nom: </label>
+                        <label for="exampleInputEmail1" style="color:#3e3e40">Nom: </label>
                         <input type="text" id="name" class="form-control invalid " name="name" placeholder="votre nom" required>
                         <p class="text-danger error" style="display:none">ce champs ne doit pas depasser de 20 caracteres</p>
                       </div>
 
                           <div class="form-group">
-                             <label for="exampleInputPassword1" style="color:blue">E-mail: </label>
+                             <label for="exampleInputPassword1" style="color:#3e3e40">E-mail: </label>
                             <input type="email" id="email" class="form-control invalid " name="email" placeholder="placez ici votre addresse email" required>
                             <p1 class="text-danger error" style="display:none">mail invalide</p1>
                       </div>   
                       <div class="group">
-                            <label for="exampleInputEmail1" style="color:blue">Message: </label> <br>
+                            <label for="exampleInputEmail1" style="color:#3e3e40">Message: </label> <br>
                             <textarea type="text" id="message" name="message" rows="5" cols="30" class="form-control invalid " >
                             </textarea>                           
                             <p2 class="text-danger error" style="display:none"><br> ce champs ne doit pas etre vide</p2>
@@ -37,8 +37,8 @@
 
 
             <div class="modal-footer">
-                <button type="submit" id="send" class="btn btn-primary">envoyer</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">annuler</button>
+                <button type="submit" id="send" class="btn btn-secondary">envoyer</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">annuler</button>
             </div>
             </div>
             

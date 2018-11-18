@@ -45,7 +45,7 @@
 @media all and (max-width: 600px) {
     .networking_bottom {
         visibility: visible;
-        margin-left: 150px;
+        margin-left: 130px;
     }
     .networking_left {
         visibility: hidden;
@@ -141,12 +141,12 @@
 }
 
 @media all and (max-width: 1000px ) and ( min-width: 700px) {
-    .zoom div img, .zoom div div {
+    .zoom div {
         width: 200px;
         height: 150px;
     }
     .impaire {
-        width: 320px;
+        width: 250px;
     }
     
     div.zoom {
@@ -167,7 +167,7 @@
         height: 75px;
     }
     .impaire {
-        left:20px;
+        left:50px;
     }
 }
 
