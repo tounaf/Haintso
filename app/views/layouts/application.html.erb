@@ -30,9 +30,10 @@
         
         <!-- Extra plugin css -->
         <link href="/lib/css/style.css" rel="stylesheet">
+        <link href="/lib/nav.css" rel="stylesheet">
         <link href="/lib/css/release.css" rel="stylesheet">
         <link href="/lib/css/responsive.css" rel="stylesheet">
-        <link href="/lib/nav.css" rel="stylesheet">
+        <link href="/lib/css/release.css" rel="stylesheet">
     </head>
  <body>
  	<%= render partial: 'layouts/nav' %>
@@ -93,13 +94,25 @@
                 }
 
                 if (screen.width<= 922) {
-                    console.log("hello");
                     $('.navbar-brand img ').css({
                         'display':'block',
                         'width':'100px',
                         'height':'80px'
                         });
                 }
+                if (screen.width == 375) {
+                    $('.jumbotron').css({
+                        'width':'250px',
+                        'margin-left':'65px'
+                        })
+                }
+                if (screen.width == 425) {
+                    $('.jumbotron').css({
+                        'width':'300px',
+                        'margin-left':'60px'
+                        })
+                }
+                
             });
         </script>
   </body>

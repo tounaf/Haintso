@@ -112,18 +112,37 @@
     width: 20px;
 }
 
-/* .jumbotron {
-    margin-bottom: 0px;
-    height: 300px;
+@keyframes changeCouleur {
+    from{ color:black;}
+    20%{color:lightslategray;}
+    40%{color:lime;}
+    60%{color:rebeccapurple;}
+    80%{color:lawngreen;}
+    to{color:purple;}
+}
+
+.projetc_title {
+    -webkit-animation: 10s linear infinite  changeCouleur;
+}
+
+ .jumbotron {
+    border-left: 10px;
+    /*margin-bottom: 0px;
+    /*height: 300px;*/
     color: white; /* Le texte sera affiché en blanc */
-    /* text-shadow: black 0.3em 0.3em 0.3em; */
-    /* background:transparent; */
-   /* }  */
-   
+   /* text-shadow: black 0.3em 0.3em 0.3em;
+    /*background:black; */ 
+    } 
+   .b_companu_l_text {
+       border-radius: 10px;
+       color: red;
+       background: black;
+   }
 /*  fin index*/
 
 
 /* realisation*/
+
 
 @media all and (min-width: 1000px) {
     .zoom div img{
