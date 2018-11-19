@@ -121,7 +121,17 @@
     to{color:purple;}
 }
 
+@-webkit-keyframes changeCouleur {
+    from{ color:black;}
+    20%{color:lightslategray;}
+    40%{color:lime;}
+    60%{color:rebeccapurple;}
+    80%{color:lawngreen;}
+    to{color:purple;}
+}
+
 .projetc_title {
+    animation: 10s linear infinite  changeCouleur;
     -webkit-animation: 10s linear infinite  changeCouleur;
 }
 
