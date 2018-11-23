@@ -1,6 +1,5 @@
 /* app.html*/
 
-
 .slogan{
     padding-top: 0px; 
 }
@@ -195,14 +194,6 @@
     }
 }
 
-@media all and (max-width: 425px){
-    
-    .paire div h2, .impaire div h2 {
-        font-size: 1.38461em;
-        line-height: 1.3em;
-    }
-}
-
 
 
 
@@ -233,16 +224,5 @@ font:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-/* ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-} */
-
-/* breadcrumb>li+li:before {
-    content: none;
-    padding: 0 5px;
-    color: #ccc;
-} */
 
 
