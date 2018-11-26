@@ -1,13 +1,38 @@
 /*bg image*/
 
 
-/* @media all and (min-width: 1000px){
+/* @media all and (min-width: 2560px){
+    .rams img
+    {
+        width: 1060px;
+        height: 2500px;
+    }
+} */
+
+@media all and (max-width: 2560px){
+    .rams img
+    {
+        width: 1640px;
+        height: 1080px;
+    }
+}
+
+
+@media all and (max-width: 1440px){
+    .rams img
+    {
+        width: 1420px;
+        height: 1000px;
+    }
+}
+
+@media all and (max-width: 1024px){
     .rams img
     {
         width: 1020px;
         height: 700px;
     }
-} */
+}
 
 @media all and (max-width: 768px){
     .rams img
@@ -20,7 +45,7 @@
     .rams img
     {
         width: 430px;
-        height: 420px;
+        height: 375px;
     }
 
     .kakaka
@@ -33,6 +58,10 @@
     {
         width: 350px;
         margin-left: 25px;
+    }
+
+    .main_slider_area.slider_2{
+        height:250px;
     }
  }
 
@@ -49,6 +78,10 @@
         margin-left: 12px;
     }
 
+    .main_slider_area.slider_2{
+        height:250px;
+    }
+
 }
 
 
@@ -56,8 +89,8 @@
     .rams img
     {
         margin-top: 30px;
-        width: 300px;
-        height: 350px;
+        width: 350px;
+        height: 300px;
     }
 
     .haha
@@ -185,7 +218,7 @@
     width: 20px;
 }
 
-@keyframes changeCouleur {
+/* @keyframes changeCouleur {
     from{ color:black;}
     20%{color:lightslategray;}
     40%{color:lime;}
@@ -201,7 +234,7 @@
     60%{color:rebeccapurple;}
     80%{color:lawngreen;}
     to{color:purple;}
-}
+} */
 
 .projetc_title {
     animation: 10s linear infinite  changeCouleur;
