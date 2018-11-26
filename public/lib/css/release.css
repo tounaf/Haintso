@@ -1,13 +1,13 @@
 /*bg image*/
 
 
-@media all and (max-width: 1024px){
+/* @media all and (min-width: 1000px){
     .rams img
     {
         width: 1020px;
         height: 700px;
     }
-}
+} */
 
 @media all and (max-width: 768px){
     .rams img
