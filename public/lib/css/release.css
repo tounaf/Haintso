@@ -1,5 +1,78 @@
-/* app.html*/
+/*bg image*/
 
+
+@media all and (max-width: 1024px){
+    .rams img
+    {
+        width: 1020px;
+        height: 700px;
+    }
+}
+
+@media all and (max-width: 768px){
+    .rams img
+    {
+        width: 900px;
+        height: 700px;
+    }
+}
+    @media all and (max-width: 425px){
+    .rams img
+    {
+        width: 430px;
+        height: 420px;
+    }
+
+    .kakaka
+    {
+        margin-left: 0px;
+    }
+
+    
+    .haha
+    {
+        width: 350px;
+        margin-left: 25px;
+    }
+ }
+
+ @media all and (max-width: 375px){
+    .hery img
+    {
+        margin-top: 10px;
+        width: 380px;
+        height: 400px;
+    }
+    .haha
+    {
+        width: 320px;
+        margin-left: 12px;
+    }
+
+}
+
+
+     @media all and (max-width: 320px){
+    .rams img
+    {
+        margin-top: 30px;
+        width: 300px;
+        height: 350px;
+    }
+
+    .haha
+    {
+        width: 290px;
+        margin-left: 0px;
+    }
+
+}
+
+
+
+/* end bg image*/
+
+/* app.html*/
 
 .slogan{
     padding-top: 0px; 
@@ -224,14 +297,6 @@
     }
 }
 
-@media all and (max-width: 425px){
-    
-    .paire div h2, .impaire div h2 {
-        font-size: 1.38461em;
-        line-height: 1.3em;
-    }
-}
-
 
 
 
@@ -262,16 +327,5 @@ font:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-/* ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-} */
-
-/* breadcrumb>li+li:before {
-    content: none;
-    padding: 0 5px;
-    color: #ccc;
-} */
 
 
