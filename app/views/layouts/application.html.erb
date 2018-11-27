@@ -108,7 +108,7 @@
                         'width':'250px',
                         'margin-left':'35px'
                         });
-                    $('.main_c_b_title').css('margin-top','100px')
+                    $('.main_c_b_title').css('margin-top','100px');
                     $('.projetc_title').css('margin-top','100px');
 
                 }
@@ -122,8 +122,13 @@
                 }
 
                 if (screen.width <= 325) {
-                    $('.main_c_b_title').css('margin-top','100px')
+                    $('.main_c_b_title').css('margin-top','100px');
                     $('.projetc_title').css('margin-top','100px');    
+                }
+
+                if (screen.width <= 500){
+                    console.log($('.main_c_b_title')+"hello");
+                   $('.main_c_b_title').css('margin-top','100px'); 
                 }
             });
         </script>
