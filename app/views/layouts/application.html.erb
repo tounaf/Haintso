@@ -106,15 +106,21 @@
                     $('.jumbotron').css({
                         'width':'250px',
                         'margin-left':'35px'
-                        })
+                        });
+                    $('.projetc_title').css('margin-top','100px');
+
                 }
                 if (screen.width == 425) {
                     $('.jumbotron').css({
                         'width':'300px',
                         'margin-left':'27px'
-                        })
+                        });
+                $('.projetc_title').css('margin-top','100px');    
                 }
-                
+
+                if (screen.width <= 325) {
+                    $('.projetc_title').css('margin-top','100px');    
+                }
             });
         </script>
   </body>
