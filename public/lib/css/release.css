@@ -64,6 +64,11 @@
     .main_slider_area.slider_2{
         height:250px;
     }
+
+    .projetc_title {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
  }
 
  @media all and (max-width: 375px){
@@ -83,6 +88,12 @@
         height:250px;
     }
 
+    
+    .projetc_title {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
 }
 
 
@@ -99,6 +110,12 @@
     {
         width: 290px;
         margin-left: 0px;
+    }
+
+    
+    .projetc_title {
+        margin-top: 50px;
+        padding-top: 50px;
     }
 
 }
@@ -254,7 +271,7 @@
    .b_companu_l_text {
        border-radius: 10px;
        color: red;
-       background: black;
+       /* background: black; */
    }
 /*  fin index*/
 
