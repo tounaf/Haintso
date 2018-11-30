@@ -44,8 +44,9 @@
     @media all and (max-width: 425px){
     .rams img
     {
-        width: 430px;
-        height: 375px;
+        width: 400px;
+        height: 305px;
+        margin-left: 13px;
     }
 
     .kakaka
@@ -90,7 +91,8 @@
     {
         margin-top: 30px;
         width: 350px;
-        height: 300px;
+        height: 270px;
+        margin-left: 0px;
     }
 
     .haha
@@ -258,15 +260,13 @@
 
 
 /* realisation*/
-
-
-@media all and (min-width: 1000px) {
+@media all and (max-width: 1440px) {
     .zoom div img{
         width: 300px;
-        height: 250px;
+        height: 180px;
     }
     .impaire {
-        width: 320px
+        width: 270px
     }
 
     div.zoom {
@@ -275,13 +275,31 @@
 
 }
 
-@media all and (max-width: 1000px ) and ( min-width: 700px) {
+@media all and (max-width: 1024px) {
+    .zoom div img{
+        width: 300px;
+        height: 130px;
+    }
+    .impaire {
+        width: 220px;
+    }
+    .paire{
+        width: 220px;
+    }
+
+    div.zoom {
+        left: 10px;
+    }
+
+}
+
+@media all and (max-width: 768px ) {
     .zoom div {
-        width: 200px;
+        width: 210px;
         height: 150px;
     }
     .impaire {
-        width: 250px;
+        width: 200px;
     }
     
     div.zoom {
@@ -289,44 +307,38 @@
     }
 }
 
-@media all and (max-width: 650px) {
-    .zoom div img, .zoom div div {
-        width: 150px;
-        height: 100px;
+@media all and (max-width: 425px) {
+    .zoom div img {
+        width: 190px;
+        height: 120px;
+        margin-left: 0px;
+    }
+    .impaire {
+        left:0px;
+    }
+    .zoom div div{
+        left: 0px;
     }
 }
 
-@media all and (max-width: 425px) and (min-width: 375px) {
-    .zoom div img, .zoom div div {
-        width: 130px;
-        height: 75px;
+@media all and (max-width: 375px) {
+    .zoom div{
+        width: 180px;
+        height: 140px;
+        margin-left: 0px;
+    }
+    .zoom div div{
+        margin-left: 0px;
     }
     .impaire {
-        left:50px;
-    }
-}
-
-@media all and (max-width: 375px) and (min-width: 320px) {
-    .zoom div img, .zoom div div {
-        width: 120px;
-        height: 75px;
-
-    }
-    .impaire {
-        left:20px;
+        left:0px;
     }
 }
 
 @media all and (max-width: 320px) {
-    .zoom div img, .zoom div div {
-        width: 130px;
-        height: 75px;
-    }
-    .impaire {
-        left:20px;
-    }
-    .desc {
-        color: red;
+    .zoom div{
+        width: 160px;
+        height: 140px;
     }
 }
 
