@@ -277,6 +277,10 @@
 
 
 /* realisation*/
+.zoom div img {
+    border: 0.5px solid gray;
+}
+
 @media all and (max-width: 1440px) {
     .zoom div img{
         width: 300px;
@@ -327,7 +331,7 @@
 @media all and (max-width: 425px) {
     .zoom div img {
         width: 190px;
-        height: 120px;
+        height: 100px;
         margin-left: 0px;
     }
     .impaire {
