@@ -41,7 +41,7 @@ set :branch, "master"
 # set :format_options, command_output: true, log_file: "log/capistrano.log", color: :auto, truncate: :auto
 
 # Default value for :pty is false
-ssh_options[:forward_agent] = true
+# ssh_options[:forward_agent] = true
 # Default value for :linked_files is []
 # append :linked_files, "config/database.yml"
 
