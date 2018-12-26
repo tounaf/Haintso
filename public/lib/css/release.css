@@ -5,53 +5,11 @@
 }
 
 
-/* @media all and (min-width: 2560px){
-    .rams img
-    {
-        width: 1060px;
-        height: 2500px;
+@media all and (max-width: 425px){
+    
+    .rams img {
+        margin-top: 75px;
     }
-} */
-
-/* @media all and (max-width: 2560px){
-    .rams img
-    {
-        width: 1640px;
-        height: 1080px;
-    }
-} */
-
-
-/* @media all and (max-width: 1440px){
-    .rams img
-    {
-        width: 1420px;
-        height: 1000px;
-    }
-} */
-/* 
-@media all and (max-width: 1024px){
-    .rams img
-    {
-        width: 1020px;
-        height: 700px;
-    }
-} */
-
-/* @media all and (max-width: 768px){
-    .rams img
-    {
-        width: 900px;
-        height: 700px;
-    }
-} */
-    @media all and (max-width: 425px){
-    /* .rams img
-    {
-        width: 400px;
-        height: 305px;
-        margin-left: 13px;
-    } */
 
     .kakaka
     {
@@ -70,12 +28,16 @@
     }
 
     .projetc_title {
-        margin-top: 5px!important;
+        margin-top: 75px!important;
         padding-top: 5px;
     }
  }
 
  @media all and (max-width: 375px){
+     .rams img {
+         margin-top: 75px;
+     }
+
     .hery img
     {
         margin-top: 10px;
@@ -298,6 +260,10 @@
         left: 10px;
     }
 
+    .best_company_area {
+        margin-top: -90px;
+    }
+
 }
 
 @media all and (max-width: 768px ) {
@@ -312,6 +278,19 @@
     div.zoom {
         left: 10px;
     }
+
+    .rams img {
+        margin-top: 68px;
+    }
+    .best_company_area {
+        margin-top: -170px;
+        margin-bottom: -10px
+    }
+
+    .jumbotron {
+        margin-bottom: -123px;
+    }
+
 }
 
 @media all and (max-width: 425px) {
@@ -326,6 +305,12 @@
     .zoom div div{
         left: 0px;
     }
+    
+    .best_company_area {
+        margin-top: -40px;
+        margin-bottom: -10px
+    }
+    
 }
 
 @media all and (max-width: 375px) {
@@ -339,6 +324,11 @@
     }
     .impaire {
         left:0px;
+    }
+    
+    .best_company_area {
+        margin-top: -100px;
+        margin-bottom: -10px
     }
 }
 
@@ -379,5 +369,11 @@ font:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+/* @media all and (min-width:768px) and (max-width:992px){
+    .nav-content {
+        min-height: 51px;
+        height: 100px;
+    }
+} */
 
 
