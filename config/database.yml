@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: MyVitrine_production
+  database: base_haintso
   username: MyVitrine
   password: <%= ENV['MYVITRINE_DATABASE_PASSWORD'] %>
