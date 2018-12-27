@@ -4,7 +4,11 @@
     height: auto;
 }
 
-
+@media all and (min-width:1024px) {
+    .nav-content {
+        border: 0px!important;
+    }
+}
 @media all and (max-width: 425px){
     
     .rams img {
@@ -87,6 +91,10 @@
     .jumbotron, .jumb-text {
         margin-bottom: 1px !important;
         padding-bottom: 1px !important;
+    }
+    
+    .bread-prestation {
+        margin-bottom: -80px!important;
     }
 
 }
