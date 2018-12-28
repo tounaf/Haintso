@@ -94,12 +94,15 @@
                     $('.impaire').css('width','250px');
                     $('.impaire').css('margin-left','130px');
                 }
+                if (screen.width <= 768 ) {
+                    $('.br-desktop').css('display','none');
+                }
 
                 if (screen.width<= 922) {
                     $('.navbar-brand img ').css({
                         'display':'block',
-                        'width':'100px',
-                        'height':'80px'
+                        // 'width':'100px',
+                        // 'height':'80px'
                         });
                 }
                 if (screen.width == 375) {
@@ -122,8 +125,11 @@
                 }
 
                 if (screen.width <= 325) {
+                    console.log($('.bread-prestation').attr('margin-bottom','-80px'));
+                    $('.rams img').attr("src","lib/haintso-trano/h18-320.jpg");
                     $('.main_c_b_title').css('margin-top','100px');
-                    $('.projetc_title').css('margin-top','100px');    
+                    $('.projetc_title').css('margin-top','100px');  
+                    $('.bread-prestation').attr('marginBottom','-80px');  
                 }
 
                 if (screen.width <= 500){

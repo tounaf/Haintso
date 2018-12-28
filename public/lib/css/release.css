@@ -1,52 +1,18 @@
 /*bg image*/
-
-
-/* @media all and (min-width: 2560px){
-    .rams img
-    {
-        width: 1060px;
-        height: 2500px;
-    }
-} */
-
-@media all and (max-width: 2560px){
-    .rams img
-    {
-        width: 1640px;
-        height: 1080px;
-    }
+.rams img {
+    width: 100%;
+    height: auto;
 }
 
-
-@media all and (max-width: 1440px){
-    .rams img
-    {
-        width: 1420px;
-        height: 1000px;
+@media all and (min-width:1024px) {
+    .nav-content {
+        border: 0px!important;
     }
 }
-
-@media all and (max-width: 1024px){
-    .rams img
-    {
-        width: 1020px;
-        height: 700px;
-    }
-}
-
-@media all and (max-width: 768px){
-    .rams img
-    {
-        width: 900px;
-        height: 700px;
-    }
-}
-    @media all and (max-width: 425px){
-    .rams img
-    {
-        width: 400px;
-        height: 305px;
-        margin-left: 13px;
+@media all and (max-width: 425px){
+    
+    .rams img {
+        margin-top: 75px;
     }
 
     .kakaka
@@ -66,12 +32,16 @@
     }
 
     .projetc_title {
-        margin-top: 50px;
-        padding-top: 50px;
+        margin-top: 75px!important;
+        padding-top: 5px;
     }
  }
 
  @media all and (max-width: 375px){
+     .rams img {
+         margin-top: 75px;
+     }
+
     .hery img
     {
         margin-top: 10px;
@@ -100,10 +70,7 @@
      @media all and (max-width: 320px){
     .rams img
     {
-        margin-top: 30px;
-        width: 350px;
-        height: 270px;
-        margin-left: 0px;
+        margin-top:75px;
     }
 
     .haha
@@ -114,8 +81,20 @@
 
     
     .projetc_title {
-        margin-top: 50px;
-        padding-top: 50px;
+        margin-top: 25px!important;
+        padding-top: 5px;
+    }
+    .best_company_area{
+        padding-top: 0px!important;
+    }
+
+    .jumbotron, .jumb-text {
+        margin-bottom: 1px !important;
+        padding-bottom: 1px !important;
+    }
+    
+    .bread-prestation {
+        margin-bottom: -80px!important;
     }
 
 }
@@ -237,24 +216,6 @@
     width: 20px;
 }
 
-/* @keyframes changeCouleur {
-    from{ color:black;}
-    20%{color:lightslategray;}
-    40%{color:lime;}
-    60%{color:rebeccapurple;}
-    80%{color:lawngreen;}
-    to{color:purple;}
-}
-
-@-webkit-keyframes changeCouleur {
-    from{ color:black;}
-    20%{color:lightslategray;}
-    40%{color:lime;}
-    60%{color:rebeccapurple;}
-    80%{color:lawngreen;}
-    to{color:purple;}
-} */
-
 .projetc_title {
     animation: 10s linear infinite  changeCouleur;
     -webkit-animation: 10s linear infinite  changeCouleur;
@@ -262,16 +223,11 @@
 
  .jumbotron {
     border-left: 10px;
-    /*margin-bottom: 0px;
-    /*height: 300px;*/
     color: white; /* Le texte sera affiché en blanc */
-   /* text-shadow: black 0.3em 0.3em 0.3em;
-    /*background:black; */ 
     } 
    .b_companu_l_text {
        border-radius: 10px;
        color: red;
-       /* background: black; */
    }
 /*  fin index*/
 
@@ -312,6 +268,10 @@
         left: 10px;
     }
 
+    .best_company_area {
+        margin-top: -90px;
+    }
+
 }
 
 @media all and (max-width: 768px ) {
@@ -326,6 +286,19 @@
     div.zoom {
         left: 10px;
     }
+
+    .rams img {
+        margin-top: 68px;
+    }
+    .best_company_area {
+        margin-top: -170px;
+        margin-bottom: -10px
+    }
+
+    .jumbotron {
+        margin-bottom: -123px;
+    }
+
 }
 
 @media all and (max-width: 425px) {
@@ -340,6 +313,12 @@
     .zoom div div{
         left: 0px;
     }
+    
+    .best_company_area {
+        margin-top: -40px;
+        margin-bottom: -10px
+    }
+    
 }
 
 @media all and (max-width: 375px) {
@@ -353,6 +332,11 @@
     }
     .impaire {
         left:0px;
+    }
+    
+    .best_company_area {
+        margin-top: -100px;
+        margin-bottom: -10px
     }
 }
 
@@ -393,5 +377,11 @@ font:hover{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
+/* @media all and (min-width:768px) and (max-width:992px){
+    .nav-content {
+        min-height: 51px;
+        height: 100px;
+    }
+} */
 
 
