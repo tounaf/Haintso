@@ -319,6 +319,14 @@
         margin-bottom: -10px
     }
     
+    .desc-left {
+        margin-left: -33px!important;
+        margin-top: -20px!important;
+    }
+    .desc-right {
+        margin-top: -20px!important;
+    }
+    
 }
 
 @media all and (max-width: 375px) {
@@ -338,6 +346,15 @@
         margin-top: -100px;
         margin-bottom: -10px
     }
+
+    .desc-left {
+        margin-left: -28px!important;
+        margin-top: -20px!important;
+    }
+    .desc-right {
+        margin-top: -20px;
+    }
+
 }
 
 @media all and (max-width: 320px) {
@@ -345,6 +362,15 @@
         width: 160px;
         height: 140px;
     }
+    
+    .desc-left {
+        margin-left: -33px!important;
+        margin-top: -24px!important;
+    }
+    .desc-right{
+        margin-top: -24px!important;
+    }
+
 }
 
 
@@ -376,12 +402,5 @@ font:hover{
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-/* @media all and (min-width:768px) and (max-width:992px){
-    .nav-content {
-        min-height: 51px;
-        height: 100px;
-    }
-} */
 
 
