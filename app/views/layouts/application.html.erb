@@ -30,101 +30,11 @@
         
         <!-- Extra plugin css -->
         <link href="/lib/css/style.css" rel="stylesheet">
-        <link href="/lib/css/release.css" rel="stylesheet">
-        <link href="/lib/css/responsive.css" rel="stylesheet">
         <link href="/lib/nav.css" rel="stylesheet">
-       <style type="text/css">
-             font:hover{
-                color:#ea6721;
-            }
-            /*li.active a {
-                color:#ea6721;
-            }
-*/          /*  font{
-                font-family: Chandas;
-            }
-*/           /* font:focus-within{
-                background: red;
-            }
-*/          
-              /* .slogan{
-                padding-top: 0px; 
-            }
-            @media all and (max-width: 700px) {
-                .img {
-                    border: 1px solid black ;
-                    height: 150px;
-                }
-            }
-            @media all and (min-width: 900px ) {
-                .networking_bottom { 
-                    visibility: hidden;
-                    padding-top: 10px;
-                    padding-bottom: 5px;
-                }
-                .footer_widgets_area{
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                    
-                }
-                .b_company_image >img {
-                    width: 700px;
-                    height: 500px;
-                } 
-            }
-            @media all and (min-width: 500px) and (max-width: 900px){
-                .networking_bottom {
-                    visibility: visible;
-                    margin-left: 350px;
-                }
-
-                .networking_left {
-                    visibility: hidden;
-                }
-
-                .footer_widgets_area .footer_bg{
-                    margin-top: 120px;
-                    padding-bottom: 50px;
-                    background: red;
-                } 
-            }
-            @media all and (max-width: 600px) {
-                .networking_bottom {
-                    visibility: visible;
-                    margin-left: 150px;
-                }
-                .networking_left {
-                    visibility: hidden;
-                }
-
-                .footer_widgets_area .footer_bg{
-                    margin-top: -20px;
-                    padding-bottom: 50px;
-                    background: red;
-                } 
-            }
-            @media all and (min-width: 770px) {
-
-                img[class=voirplus]{
-                    width:5px;
-                    height: 2px;
-                }
-            }
-            @media all and (max-width: 769px) {
-               img[class=voirplus]{
-                    border-radius: 50px;
-                    width:500px;
-                    height: 100px;
-                }
-            } */
-
-        </style>
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <link href="/lib/css/release.css" rel="stylesheet">
+        <link href="/lib/css/release1.css" rel="stylesheet">
+        <link href="/lib/css/responsive.css" rel="stylesheet">
+        <link href="/lib/css/release.css" rel="stylesheet">
     </head>
  <body>
  	<%= render partial: 'layouts/nav' %>
@@ -156,6 +66,7 @@
         <script src="/lib/js/theme.js"></script>
         <script type="text/javascript">
             $(document).ready(function(){
+                $('.b_companu_l_text').css('background-color','white');
                 $(window).scroll(function(){
                     if (screen.width < 900 ) {
                         $('.networking_left').hide();
@@ -164,13 +75,66 @@
                             "height": "200px"
                         })
                     }else if (screen.width > 900 ){
-                        $('networking_bottom').hide();
+                        $('.networking_bottom').hide();
                         $('img[class="voirplus"]').css({
                             "width": "700px",
                             "height": "400px"
                         })
                     }
                 })
+
+                if (screen.width < 900) {
+                    $('.networking_bottom').css('margin-left','130px').after('<br><br>');
+                }
+
+                if (screen.width > 900) {
+                    $('.zoom').css('margin-left','60px');
+                }
+                if (screen.width == 768 ) {
+                    $('.impaire').css('width','250px');
+                    $('.impaire').css('margin-left','130px');
+                }
+                if (screen.width <= 768 ) {
+                    $('.br-desktop').css('display','none');
+                }
+
+                if (screen.width<= 922) {
+                    $('.navbar-brand img ').css({
+                        'display':'block',
+                        // 'width':'100px',
+                        // 'height':'80px'
+                        });
+                }
+                if (screen.width == 375) {
+                    console.log('eto');
+                    $('.jumbotron').css({
+                        'width':'250px',
+                        'margin-left':'35px'
+                        });
+                    $('.main_c_b_title').css('margin-top','100px');
+                    $('.projetc_title').css('margin-top','100px');
+
+                }
+                if (screen.width == 425) {
+                    $('.jumbotron').css({
+                        'width':'300px',
+                        'margin-left':'27px'
+                        });
+                    $('.main_c_b_title').css('margin-top','100px');
+                     $('.projetc_title').css('margin-top','100px');    
+                }
+
+                if (screen.width <= 325) {
+                    console.log($('.bread-prestation').attr('margin-bottom','-80px'));
+                    $('.rams img').attr("src","lib/haintso-trano/h18-320.jpg");
+                    $('.main_c_b_title').css('margin-top','100px');
+                    $('.projetc_title').css('margin-top','100px');  
+                    $('.bread-prestation').attr('marginBottom','-80px');  
+                }
+
+                if (screen.width <= 500){
+                   $('.main_c_b_title').css('margin-top','100px'); 
+                }
             });
         </script>
   </body>

@@ -1,5 +1,109 @@
-/* app.html*/
+/*bg image*/
+.rams img {
+    width: 100%;
+    height: auto;
+}
 
+@media all and (min-width:1024px) {
+    .nav-content {
+        border: 0px!important;
+    }
+}
+@media all and (max-width: 425px){
+    
+    .rams img {
+        margin-top: 75px;
+    }
+
+    .kakaka
+    {
+        margin-left: 0px;
+    }
+
+    
+    .haha
+    {
+        width: 350px;
+        margin-left: 25px;
+    }
+
+    .main_slider_area.slider_2{
+        height:250px;
+    }
+
+    .projetc_title {
+        margin-top: 75px!important;
+        padding-top: 5px;
+    }
+ }
+
+ @media all and (max-width: 375px){
+     .rams img {
+         margin-top: 75px;
+     }
+
+    .hery img
+    {
+        margin-top: 10px;
+        width: 380px;
+        height: 400px;
+    }
+    .haha
+    {
+        width: 320px;
+        margin-left: 12px;
+    }
+
+    .main_slider_area.slider_2{
+        height:250px;
+    }
+
+    
+    .projetc_title {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+}
+
+
+     @media all and (max-width: 320px){
+    .rams img
+    {
+        margin-top:75px;
+    }
+
+    .haha
+    {
+        width: 290px;
+        margin-left: 0px;
+    }
+
+    
+    .projetc_title {
+        margin-top: 25px!important;
+        padding-top: 5px;
+    }
+    .best_company_area{
+        padding-top: 0px!important;
+    }
+
+    .jumbotron, .jumb-text {
+        margin-bottom: 1px !important;
+        padding-bottom: 1px !important;
+    }
+    
+    .bread-prestation {
+        margin-bottom: -80px!important;
+    }
+
+}
+
+
+
+/* end bg image*/
+
+/* app.html*/
 
 .slogan{
     padding-top: 0px; 
@@ -45,7 +149,7 @@
 @media all and (max-width: 600px) {
     .networking_bottom {
         visibility: visible;
-        margin-left: 150px;
+        margin-left: 130px;
     }
     .networking_left {
         visibility: hidden;
@@ -112,95 +216,161 @@
     width: 20px;
 }
 
-/* .jumbotron {
-    margin-bottom: 0px;
-    height: 300px;
+.projetc_title {
+    animation: 10s linear infinite  changeCouleur;
+    -webkit-animation: 10s linear infinite  changeCouleur;
+}
+
+ .jumbotron {
+    border-left: 10px;
     color: white; /* Le texte sera affiché en blanc */
-    /* text-shadow: black 0.3em 0.3em 0.3em; */
-    /* background:transparent; */
-   /* }  */
-   
+    } 
+   .b_companu_l_text {
+       border-radius: 10px;
+       color: red;
+   }
 /*  fin index*/
 
 
 /* realisation*/
+.zoom div img {
+    border: 0.5px solid gray;
+}
 
-@media all and (min-width: 1000px) {
+@media all and (max-width: 1440px) {
     .zoom div img{
         width: 300px;
-        height: 250px;
+        height: 180px;
     }
     .impaire {
-        width: 320px
+        width: 270px
     }
 
-    .paire,realesed {
-        left: 50px;
+    div.zoom {
+        left: 10px;
     }
 
 }
 
-@media all and (max-width: 1000px ) and ( min-width: 700px) {
-    .zoom div img, .zoom div div {
-        width: 200px;
+@media all and (max-width: 1024px) {
+    .zoom div img{
+        width: 300px;
+        height: 130px;
+    }
+    .impaire {
+        width: 220px;
+    }
+    .paire{
+        width: 220px;
+    }
+
+    div.zoom {
+        left: 10px;
+    }
+
+    .best_company_area {
+        margin-top: -90px;
+    }
+
+}
+
+@media all and (max-width: 768px ) {
+    .zoom div {
+        width: 210px;
         height: 150px;
     }
     .impaire {
-        width: 320px
+        width: 200px;
     }
     
-    .paire,realesed {
-        left: 50px;
+    div.zoom {
+        left: 10px;
     }
+
+    .rams img {
+        margin-top: 68px;
+    }
+    .best_company_area {
+        margin-top: -170px;
+        margin-bottom: -10px
+    }
+
+    .jumbotron {
+        margin-bottom: -123px;
+    }
+
 }
 
-@media all and (max-width: 650px) {
-    .zoom div img, .zoom div div {
-        width: 150px;
+@media all and (max-width: 425px) {
+    .zoom div img {
+        width: 190px;
         height: 100px;
-    }
-}
-
-@media all and (max-width: 425px) and (min-width: 375px) {
-    .zoom div img, .zoom div div {
-        width: 130px;
-        height: 75px;
+        margin-left: 0px;
     }
     .impaire {
-        left:20px;
+        left:0px;
     }
+    .zoom div div{
+        left: 0px;
+    }
+    
+    .best_company_area {
+        margin-top: -40px;
+        margin-bottom: -10px
+    }
+    
+    .desc-left {
+        margin-left: -33px!important;
+        margin-top: -20px!important;
+    }
+    .desc-right {
+        margin-top: -20px!important;
+    }
+    
 }
 
-@media all and (max-width: 375px) and (min-width: 320px) {
-    .zoom div img, .zoom div div {
-        width: 120px;
-        height: 75px;
-
+@media all and (max-width: 375px) {
+    .zoom div{
+        width: 180px;
+        height: 140px;
+        margin-left: 0px;
+    }
+    .zoom div div{
+        margin-left: 0px;
     }
     .impaire {
-        left:20px;
+        left:0px;
     }
+    
+    .best_company_area {
+        margin-top: -100px;
+        margin-bottom: -10px
+    }
+
+    .desc-left {
+        margin-left: -28px!important;
+        margin-top: -20px!important;
+    }
+    .desc-right {
+        margin-top: -20px;
+    }
+
 }
 
 @media all and (max-width: 320px) {
-    .zoom div img, .zoom div div {
-        width: 130px;
-        height: 75px;
+    .zoom div{
+        width: 160px;
+        height: 140px;
     }
-    .impaire {
-        left:20px;
-    }
-    .desc {
-        color: red;
-    }
-}
-
-@media all and (max-width: 425px){
     
-    .paire div h2, .impaire div h2 {
-        font-size: 1.38461em;
-        line-height: 1.3em;
+    .desc-left {
+        margin-left: -33px!important;
+        margin-top: -24px!important;
     }
+    .desc-right{
+        margin-top: -24px!important;
+    }
+
 }
 
 
@@ -219,7 +389,7 @@
 
 
 .realesed {
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /*fin realisation*/
@@ -232,17 +402,5 @@ font:hover{
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
-/* ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: black;
-    content: "/\00a0";
-} */
-
-/* breadcrumb>li+li:before {
-    content: none;
-    padding: 0 5px;
-    color: #ccc;
-} */
 
 
