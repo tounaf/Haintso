@@ -374,7 +374,18 @@
 }
 
 
-
+@keyframes example {
+    from {
+        -ms-transform: rotate(20deg); /* IE 9 */
+        -webkit-transform: rotate(20deg); /* Safari */
+        transform: rotate(20deg);
+        }
+    to {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Safari */
+        transform: rotate(360deg);
+    }
+  }
 
 .zoom div img {
 	-webkit-transform: scale(1);
@@ -383,8 +394,14 @@
 	transition: .3s ease-in-out;
 }
 .zoom div:hover img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
+	/* -webkit-transform: scale(1.1);
+    transform: scale(1.1); */
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
 }
 
 
